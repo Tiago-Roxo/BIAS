@@ -1,6 +1,6 @@
 # BIAS Interpretability
 
-1. Download the AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD]() datasets;
+1. Download the AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD](https://tiago-roxo.github.io/WASD/) datasets;
 2. To obtain the perceived importance, we use the values of the SE vector for each feature (audio, body, and face). These can be obtained by executing the command:
 ```bash
 python3 main.py \
