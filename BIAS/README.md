@@ -1,6 +1,6 @@
 # BIAS: A Body-based Interpretable Active Speaker Approach
 
-1. Download the AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD]() datasets;
+1. Download the AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD](https://tiago-roxo.github.io/WASD/) datasets;
 2. Create the environment with `conda` using the script `create_env.sh`;
 3. To train the model, execute the command:
 ```bash
