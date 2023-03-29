@@ -60,9 +60,6 @@ We conjugate the selected channels by bicubic interpolation on top of the origin
 
 
 ## Textual Interpretability
-Descrição do conjunto de dados criado para finetune do ViT-GPT2
-Como foi obtido o ViT-GPT2 (ref. huggingface)
-Disponibilizar os ficheiros de treino e inferência modelo pretreinado
 
 We define a set of 14 admissible ASD-related actions, displayed in the table below, with the total annotated data being composed of 47 246 captions and 11 733 images from WASD subvideos (up to 30s), randomly selected from all videos of the WASD train set. Similar to the COCO captions dataset, we divide our annotations into 90/10 train/test.
 
@@ -87,6 +84,8 @@ We define a set of 14 admissible ASD-related actions, displayed in the table bel
 | Body         | 14        | Wild body movement          |
 
 *ASD-Related actions for ViT-GPT2 model finetuning, grouped by body parts.*
+
+The following figure shows the overall distribution of ASD actions and pair of actions more commonly associated:
 
 ![action_action_pair_distribution](images/action_action_pair_distribution.png)
 *Distribution of ASD-related action (left) and pair of actions more commonly associated (right). Action labels refer to their numbers in the Table above.*
