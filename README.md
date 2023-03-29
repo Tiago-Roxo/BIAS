@@ -2,7 +2,7 @@
 
 *Official Pytorch implementation of the [BIAS: A Body-based Interpretable Active Speaker Approach]()*
 
-BIAS is a body-based approach for ASD that uses, for the first time, body data to complement face and audio, achieving state-of-the-art results in cooperative and challenging sets (AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD](), respectively). Furthermore, we explore the use of [Squeeze-and-Excitation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) (SE) blocks to provide reasoning for model decision and analyze the importance of different features, and annotate ASD-related action data to finetune a GPT model, used to provide scene textual descriptions.
+BIAS is a body-based approach for ASD that uses, for the first time, body data to complement face and audio, achieving state-of-the-art results in cooperative and challenging sets (AVA-ActiveSpeaker [\[github\]](https://github.com/cvdfoundation/ava-dataset) [\[website\]](https://research.google.com/ava/download.html#ava_active_speaker_download) and [WASD](https://tiago-roxo.github.io/WASD/), respectively). Furthermore, we explore the use of [Squeeze-and-Excitation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) (SE) blocks to provide reasoning for model decision and analyze the importance of different features, and annotate ASD-related action data to finetune a GPT model, used to provide scene textual descriptions.
 
 
 ![main_image](images/main_image.png)
