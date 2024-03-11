@@ -37,7 +37,6 @@ parser.add_argument('--nDataLoaderThread', type=int, default=1,  help='Number of
 
 args = parser.parse_args()
 
-# TODO: Talvez mudar algo para melhorar resultados
 def create_video(fileName, dir):
 	video = cv2.VideoCapture(os.path.join(dir, fileName + '.avi'))
 	videoFeature = []
