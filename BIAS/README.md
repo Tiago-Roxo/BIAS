@@ -18,7 +18,17 @@ The BIAS model **trained on WASD** can be downloaded [here](https://drive.google
 
 The BIAS model **trained on AVA-ActiveSpeaker** can be downloaded [here](https://drive.google.com/file/d/1HqX6Fgfjz0hfgfmOjdqQ0c0LmPI1oE1Q/view?usp=share_link).
 
+## Columbia
 
+The results for [Columbia dataset](https://link.springer.com/chapter/10.1007/978-3-319-46454-1_18) were obtained using the evaluation tool available at [Light-ASD](https://github.com/Junhua-Liao/Light-ASD). You can obtain the dataset already preprocessed with face and body bounding boxes [\[here\]](https://research.google.com/ava/download.html#ava_active_speaker_download).
+
+To evaluate the model, execute the command:
+```bash
+python3 Columbia_infer.py --videoFolder $DATASET
+```
+where `$DATASET` is the folder containing the dataset (Columbia). Alternatively, you can run the script `infer_Columbia.sh` which contains an example of evaluating the model in Columbia.
+
+The BIAS model **for Columbia** can be downloaded [here](https://drive.google.com/file/d/1emfDPgBAfQGNwMsnW4E6Tduxq2OYyKsB/view?usp=share_link).
 
 ## Cite
 
