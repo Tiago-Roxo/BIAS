@@ -18,6 +18,7 @@ BIAS and state-of-the-art models performance on the different categories of WASD
 | [MAAS](https://github.com/fuankarion/MAAS)                   | 90.7      | 92.6      | 87.0      | 67.0      | 76.5      |
 | [ASDNet](https://github.com/okankop/ASDNet)                  | 96.5      | 97.4      | 92.1      | 77.4      | 77.8      |
 | [TalkNet](https://github.com/TaoRuijie/TalkNet-ASD)          | 95.8      | 97.5      | 93.1      | 81.4      | 77.5      |
+| [Light-ASD](https://github.com/Junhua-Liao/Light-ASD)        | 97.8      | 98.3      | 95.4      | 84.7      | 77.9      |
 | **BIAS**                                                     | **97.8**  | **98.4**  | **95.9**  | **85.6**  | **82.5**  |
 
 
@@ -33,9 +34,10 @@ Comparison of BIAS and state-of-the-art models on the AVA-ActiveSpeaker, grouped
 | **BIAS**                                                     | ResNet18* 2D+3D  | 31.6           | ✓            | **92.4**   |
 |                                                              |                  |                |              |            |
 | [ASDNet](https://github.com/okankop/ASDNet)                  | ResNext101 3D    | 49.7           | ×            | 93.5       |
-| [EASEE-50](https://arxiv.org/pdf/2203.14250v2.pdf)           | ResNet50 3D      | -              | ×            | 94.1       |
+| [EASEE-50](https://arxiv.org/pdf/2203.14250v2.pdf)           | ResNet50 3D      | 74.7           | ×            | 94.1       |
+| [Light-ASD](https://github.com/Junhua-Liao/Light-ASD)        | Conv 2D-1D       | 1.0            | ×            | 94.1       |
 
-Models with \* customized the reported backbones. Absence of EASEE parameter number is due to not having a publicly available implementation.
+Models with \* customized the reported backbones.
 
 
 
