@@ -139,7 +139,7 @@ class bias(nn.Module):
         evalRes.drop(['label_id'], axis=1,inplace=True)
         evalRes.drop(['instance_id'], axis=1,inplace=True)
         evalRes.to_csv(evalCsvSave, index=False)
-        cmd = "python -O utils/get_ava_active_speaker_performance.py -g %s -p %s "%(evalOrig, evalCsvSave)
+        cmd = "python3 -O utils/get_ava_active_speaker_performance.py -g %s -p %s "%(evalOrig, evalCsvSave)
         print(str(subprocess.run(cmd, shell=True, capture_output =True).stdout), evalOrig,evalCsvSave)
         mAP = float(str(subprocess.run(cmd, shell=True, capture_output =True).stdout).split(' ')[2][:5])
         return mAP
