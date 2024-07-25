@@ -56,7 +56,6 @@ def main():
     if len(modelfiles) >= 1:
         print("Model %s loaded from previous state!"%modelfiles[-1])
         epoch = int(os.path.splitext(os.path.basename(modelfiles[-1]))[0][6:]) + 1
-        epoch = 1
         s = bias(epoch = epoch, **vars(args))
         s.loadParameters(modelfiles[-1])
     else:
