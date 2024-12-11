@@ -20,5 +20,13 @@ For any additional issues/doubts regarding ViT-GPT2 use, go to the [official](ht
 ## Cite
 
 ```bibtex
-
+@misc{roxo2024bias,
+      title={BIAS: A Body-based Interpretable Active Speaker Approach}, 
+      author={Tiago Roxo and Joana C. Costa and Pedro R. M. Inácio and Hugo Proença},
+      year={2024},
+      eprint={2412.05150},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.05150}, 
+}
 ```
