@@ -142,7 +142,7 @@ The ASD-related captions dataset can be downloaded [here](https://drive.google.c
 ## Cite
 
 ```bibtex
-@misc{roxo2024biasbodybasedinterpretableactive,
+@misc{roxo2024bias,
       title={BIAS: A Body-based Interpretable Active Speaker Approach}, 
       author={Tiago Roxo and Joana C. Costa and Pedro R. M. Inácio and Hugo Proença},
       year={2024},
