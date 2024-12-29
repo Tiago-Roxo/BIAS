@@ -33,13 +33,12 @@ The BIAS model **for Columbia** can be downloaded [here](https://drive.google.co
 ## Cite
 
 ```bibtex
-@misc{roxo2024bias,
-      title={BIAS: A Body-based Interpretable Active Speaker Approach}, 
-      author={Tiago Roxo and Joana C. Costa and Pedro R. M. Inácio and Hugo Proença},
-      year={2024},
-      eprint={2412.05150},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.05150}, 
+@article{roxo2024bias,
+  title={BIAS: A Body-Based Interpretable Active Speaker Approach}, 
+  author={Roxo, Tiago and Costa, Joana C. and Inácio, Pedro R. M. and Proença, Hugo},
+  journal={IEEE Transactions on Biometrics, Behavior, and Identity Science}, 
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/TBIOM.2024.3520030}
 }
 ```
